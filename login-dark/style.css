@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-esquerda,
+.box-direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-esquerda__imagem {
+    width: 35vw;
+}
+
+.box-esquerda>h1 {
+    font-size: 3vw;
+    color: #77ffc0;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 8px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login>h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.input-texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.input-texto>input {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #514869;
+    padding: 15px;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-texto>label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.input-texto>input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-login {
+        width: 85%;
+        margin-bottom: 25  px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .box-esquerda,
+    .box-direita {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-esquerda>h1 {
+        padding-top: 1em;
+        font-size: 6vw;
+    }
+
+    .box-esquerda__imagem {
+        width: 80vw;
+    }
+
+    .card-login {
+        width: 90%;
+    }
+}
