@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/consulta-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu">
+            <a href="#" class="manu-logo">
+           <!--      <img src="assets/img/logo.png" alt="Logo" class="imagem-logo"> -->
+            </a>
+            <div class="menu-mobile">
+                <div class="mobile-linha"></div>
+            </div>
+            <nav class="menu-nav ">
+                <ul class="menu-nav__links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Trabalhos</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="banner-fundo">
+        <main class="banner">
+            <div class="banner-textos">
+                <h1>Estamos construindo seu futuro</h1>
+                <p>Dê um passo em direção ao futuro da construção com Cobuild</p>
+            </div>
+            <button class="btn-padrao">Faça Orçamento</button>
+        </main>
+    </main>
+    <article class="servicos">
+        <div class="servicos-textos">
+            <h2>Nossos Serviços</h2>
+            <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris morbi accumsan ipsum velit. Nam nec
+                Tellus
+                a odio tincidunt auctor a ornare odio.</p>
+        </div>
+        <ul class="servicos-itens">
+            <li>
+                <div class="servicos-item">
+                    <img src="assets/img/operacao-icon.png" alt="icone">
+                    <h3>Operações Rápidas</h3>
+                    <p>Cobuild impressiona você com total capacidade de resposta e alta personalização.</p>
+                </div>
+            </li>
+            <li>
+                <div class="servicos-item">
+                    <img src="assets/img/renovacao-icon.png" alt="icone">
+                    <h3>Renovação</h3>
+                    <p>Cobuild impressiona você com total capacidade de resposta e alta personalização.</p>
+                </div>
+            </li>
+            <li>
+                <div class="servicos-item">
+                    <img src="assets/img/consulta-icon.png" alt="icone">
+                    <h3>Consulta</h3>
+                    <p>Cobuild impressiona você com total capacidade de resposta e alta personalização.</p>
+                </div>
+            </li>
+            <li>
+                <div class="servicos-item">
+                    <img src="assets/img/arquitetura-icon.png" alt="icone">
+                    <h3>Arquitetura</h3>
+                    <p>Cobuild impressiona você com total capacidade de resposta e alta personalização.</p>
+                </div>
+            </li>
+        </ul>
+    </article>
+    <article class="trabalhos">
+        <div class="trabalhos-texto">
+            <h2>Trabalho Em Destaque</h2>
+            <p>Duis aute irure dolor in reprehenderit volupte velit esse cillum fugiat pariature occaecat cupidatat
+                proident culpa.</p>
+        </div>
+        <div class="trabalhos-btns">
+            <button class="btn selecionado" value="todos">Todos</button>
+            <span class="barra">/</span>
+            <button class="btn" value="predio">Prédio</button>
+            <span class="barra">/</span>
+            <button class="btn" value="construcao">Construção</button>
+            <span class="barra">/</span>
+            <button class="btn" value="planejamento">Planejamento</button>
+        </div>
+        <div class="trabalhos-cards">
+            <div class="trabalho-card" data-filtro="predio">
+                <img src="assets/img/predio1.jpg" alt="prédio" class="trabalhos-imagem ">
+            </div>
+            <div class="trabalho-card" data-filtro="predio">
+                <img src="assets/img/predio2.jpg" alt="prédio" class="trabalhos-imagem ">
+            </div>
+            <div class="trabalho-card" data-filtro="construcao">
+                <img src="assets/img/construcao1.jpg" alt="construção" class="trabalhos-imagem">
+            </div>
+            <div class="trabalho-card" data-filtro="construcao">
+                <img src="assets/img/construcao2.jpg" alt="construção" class="trabalhos-imagem">
+            </div>
+            <div class="trabalho-card" data-filtro="planejamento">
+                <img src="assets/img/pranejamento1.jpg" alt="planejamento" class="trabalhos-imagem">
+            </div>
+            <div class="trabalho-card" data-filtro="planejamento">
+                <img src="assets/img/planejamento2.jpg" alt="planejamento" class="trabalhos-imagem">
+            </div>
+        </div>
+        <div class="trabalhos-estadisticas">
+            <div class="estadisticas-textos">
+                <h2>Somos especialistas nesta área há quase 20 anos.</h2>
+                <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin, lorem quis bibendum auctor, nisi
+                    elit cuat ipsum, nec sagittis sem nibh id elit duis sed odio sit nibh vulputate cursus a sit amet
+                    mauris morbi accumsan.</p>
+            </div>
+            <div class="estadisticas-barras">
+                <!--             BARRA 01                -->
+                <div class="barra-card">
+                    <div class="barra-texto">
+                        <h4>Edifícios</h4>
+                        <h4>85%</h4>
+                    </div>
+                    <div class="barra-base">
+                        <div class="barra-preenchida barra01"></div>
+                    </div>
+                </div>
+                <!--             BARRA 02                -->
+                <div class="barra-card">
+                    <div class="barra-texto">
+                        <h4>Arquitetura</h4>
+                        <h4>60%</h4>
+                    </div>
+                    <div class="barra-base">
+                        <div class="barra-preenchida  barra02"></div>
+                    </div>
+                </div>
+                <!--             BARRA 03                -->
+                <div class="barra-card">
+                    <div class="barra-texto">
+                        <h4>Construção</h4>
+                        <h4>70%</h4>
+                    </div>
+                    <div class="barra-base">
+                        <div class="barra-preenchida barra03"></div>
+                    </div>
+                </div>
+                <!--             BARRA 04                -->
+                <div class="barra-card">
+                    <div class="barra-texto">
+                        <h4>Planejamento</h4>
+                        <h4>40%</h4>
+                    </div>
+                    <div class="barra-base">
+                        <div class="barra-preenchida barra04"></div>
+                    </div>
+                </div>
+    </article>
+    <section class="sessao-cotacao">
+        <h3>Uma empresa inovadora que trabalha com as mais recentes tecnologias </h3>
+        <button class="btn-padrao">Obtenha uma cotação</button>
+    </section>
+    <article class="depoimentos">
+        <div class="depoimentos-textos">
+            <h2>Nossos Clientes Dizem</h2>
+            <p>Duis aute irure dolor in reprehenderit volupte velit esse cillum fugiat pariature occaecat cupidatat
+                proident culpa.</p>
+        </div>
+        <div class="depoimentos-avaliacoes">
+            <div class="avaliacao">
+                <img src="assets/img/usuario01.jpg" alt="usuario" class="avaliacao-img">
+                <div class="avaliacao-texto">
+                    <p>“É simplesmente brilhante. Vou recomendar o Cobuild para todos que conheço! Estou muito feliz por
+                        esses caras terem lançado o Cobuild.</p>
+                    <h4>Gene Stevens</h4>
+                </div>
+            </div>
+            <div class="avaliacao">
+                <img src="assets/img/usuario02.jpg" alt="usuario" class="avaliacao-img">
+                <div class="avaliacao-texto">
+                    <p>“Estamos muito entusiasmados com o lançamento de nossa nova empresa. Ao usar o Cobuild, ele
+                        tem ótimos recursos, acho que vocês estão prestes a me fazer feliz.”</p>
+                    <h4>Gene Stevens</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="contato">
+        <div class="contato-mapa">
+            <img src="assets/img/icon_error.png" alt="icone">
+            <h4>Ops! Houve um Erro!</h4>
+            <p>Esta página não carregou o Google Maps corretamente. Consulte o console JavaScript para ver detalhes
+                técnicos.</p>
+        </div>
+        <ul class="contato-itens">
+            <li>
+                <div class="contato-item">
+                    <img src="assets/img/icon-casa.png" alt="icone">
+                    <h3>Endereço</h3>
+                    <p>Cidade de 220 Petersham,<br /> Wardell, Austrália PA 6550.</p>
+                </div>
+            </li>
+            <li>
+                <div class="contato-item">
+                    <img src="assets/img/icon-telefone.png" alt="icone">
+                    <h3>Telefone</h3>
+                    <p>Telefone: (04) 491 570 110</p>
+                    <p>Fax: +04 642 021 332</p>
+                </div>
+            </li>
+            <li>
+                <div class="contato-item">
+                    <img src="assets/img/icon-email.png" alt="icone">
+                    <h3>E-mail</h3>
+                    <p>suporte@zytheme.com</p>
+                    <p>Twitter: @zytheme</p>
+                </div>
+            </li>
+        </ul>
+    </article>
+    <footer>
+        <a href="https://elements.envato.com/pt-br/cobuild-construction-landing-page-html-template-G82CTT/preview"
+            target="_blank">©Vitor Martins 2023,Créditos ao projeto</a>
+        <ul class="footer-redes-sociais">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/5d448974a8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
